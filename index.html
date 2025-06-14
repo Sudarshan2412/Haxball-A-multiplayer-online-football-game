@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <div class  = "scorecard champions-league">
+            <h1>Scorecard</h1>
+            <div class = "score">
+                <p id = timer>00:00</p>
+                <p id = "Team1">0</p>
+                <p id = "Team2">0</p>
+            </div>
+        </div>
+        <div class = "field">
+            <div class = "ball"></div>
+            <div class = "goalpost left-goal"></div>
+            <div class = "goalpost right-goal"></div>
+            <div class = "halfway-line"></div>
+            <div class = "center-circle"></div>
+            <div class = "player1"></div>
+            <div class = "player2"></div>
+            <div id="goal-message" class="goal-message"></div>
+
+        </div>
+        
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="script.js" async defer></script>
+</body>
+</html>
+    </body>
+</html>
